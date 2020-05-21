@@ -14,10 +14,10 @@ function getPosts() {
 
 
 function createPost(post, callback){
-        setTimeout(() => {
+        setTimeout(()=>{
             posts.push(post);
             callback();
-        }, 2000);
+        },2000);
     }
     
 }
