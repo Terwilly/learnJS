@@ -13,7 +13,6 @@ function getPosts() {
     }, 1000);
 
 
-
 }
 function createPost(post, callback) {
     setTimeout(() => {
